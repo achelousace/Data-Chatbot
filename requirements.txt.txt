@@ -1,0 +1,7 @@
+streamlit
+PyMuPDF==1.21.1  # For PDF processing (fitz)
+pandas==2.0.3
+requests==2.31.0
+reportlab==3.6.12  # For PDF generation
+openpyxl==3.1.2  # For Excel file processing
+python-docx==0.8.11  # For DOCX file processing
