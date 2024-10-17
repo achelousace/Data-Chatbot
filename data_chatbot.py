@@ -2,14 +2,11 @@ import streamlit as st
 import fitz  # PyMuPDF for PDF processing
 import pandas as pd
 import requests
-import json
 from io import BytesIO
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
-import openpyxl  # For Excel file processing
 from docx import Document
-from docx.shared import Pt
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_file):
